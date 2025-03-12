@@ -1,13 +1,13 @@
 # Python
 Python 100 days challenge
 <br>
-Day1 :- Made a Band Name Generator, Tip Calculator Project
+Day1 : Made a Band Name Generator, Tip Calculator Project
 <br>
 Day2 : Rollercoaster file
 <br>
 Day3 : Treasure island
 <br>
-Day4: Rock paper and scissor:
+Day4 : Rock paper and scissor:
 
 # Rock Paper Scissors Game 🎮
 
@@ -36,7 +36,5 @@ Features ✨
 ✅ Random computer selection
 ✅ ASCII art representation
 ✅ Simple and fun to play!
-
-<br>
 
 Enjoy playing and feel free to improve the game! 🚀
