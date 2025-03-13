@@ -7,7 +7,9 @@ Day2 : Rollercoaster file
 <br>
 Day3 : Treasure island
 <br>
-Day4 : Rock paper and scissor:
+Day4 : Rock paper and scissor
+<br>
+Day5: Random Password Generator
 
 # Rock Paper Scissors Game 🎮
 
@@ -38,3 +40,29 @@ Features ✨
 ✅ Simple and fun to play!
 
 Enjoy playing and feel free to improve the game! 🚀
+
+# PyPassword Generator 🔒  
+
+A simple Python script to generate a random password with user-specified numbers of letters, symbols, and digits.
+
+## 🚀 Features
+- Generates a random password with a mix of **letters**, **numbers**, and **symbols**.
+- Ensures characters are **shuffled** to avoid predictable patterns.
+- Allows the user to specify the number of each type of character.
+- Easy-to-use **command-line interface**.
+
+## 🛠️ How It Works
+1. The script asks the user for the number of letters, symbols, and numbers they want in their password.
+2. It randomly selects characters based on the input.
+3. It shuffles the selected characters to ensure randomness.
+4. The final password is displayed on the screen.
+
+## 📜 Usage
+Run the script using Python:
+```sh
+python password_generator.py
+
+📌Notes
+1. Each password is unique and randomly generated.
+2. If you prefer a longer or shorter password, just change the input values when prompted.
+3. This script does not store or save passwords for security reasons.
