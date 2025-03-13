@@ -24,5 +24,9 @@ for sym in range(nr_symbols):
 
 random.shuffle(password_list)
 
-for i in range(len(password_list)):
-    print(password_list[i], end="")
+password = ""
+
+for char in password_list:
+    password += char
+
+print(f"Your generated password is: {password}")
