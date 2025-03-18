@@ -10,6 +10,8 @@ Day3 : Treasure island
 Day4 : Rock paper and scissor
 <br>
 Day5: Random Password Generator
+<br>
+Day6: Hangman game
 
 # Rock Paper Scissors Game 🎮
 
@@ -66,3 +68,85 @@ python password_generator.py
 1. Each password is unique and randomly generated.
 2. If you prefer a longer or shorter password, just change the input values when prompted.
 3. This script does not store or save passwords for security reasons.
+
+```markdown
+# Hangman Game
+
+Welcome to the **Hangman Game** – a classic command-line game built with Python! Test your word-guessing skills and challenge yourself to figure out the secret word before you run out of lives.
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Game Structure](#game-structure)
+
+
+---
+
+## Overview
+
+This Hangman game selects a random word from a list and prompts you to guess letters one at a time. With each incorrect guess, you lose a life and see the corresponding stage of ASCII art. Can you guess the word before all lives are lost?
+
+---
+
+## Features
+
+- **Interactive Gameplay:** Input a letter at a time and see the game update live.
+- **Dynamic ASCII Art:** Visual representation of your remaining lives.
+- **Random Word Selection:** Each session picks a new word from the list.
+- **User Feedback:** Informs you of correct guesses, repeated letters, and wrong attempts.
+
+---
+
+## Installation
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/your_username/your_repo.git
+   ```
+
+2. **Navigate to the Project Directory:**
+
+   ```bash
+   cd your_repo/hangman_game
+   ```
+
+3. **Ensure Python 3.6+ is Installed:**  
+   Verify with:
+   ```bash
+   python --version
+   ```
+   If needed, [download Python](https://www.python.org/downloads/).
+
+---
+
+## Usage
+
+1. Open your terminal in the `hangman_game` directory.
+2. Run the game:
+   
+   ```bash
+   python hangman.py
+   ```
+
+3. Follow the on-screen instructions to guess letters. You have **6 lives** – each incorrect guess reduces your lives. Keep guessing until you either reveal the word or run out of lives!
+
+---
+
+## Game Structure
+
+- **hangman.py:** Main game script containing the game loop and logic.
+- **hangman_words.py:** Contains the list of words used for the game.
+- **hangman_art.py:** Contains the ASCII art for the game logo and life stages.
+
+---
+
+### Instructions:
+- **Replace** `your_username` and `your_repo` with your actual GitHub username and repository name.
+- **Add a screenshot** by placing an image named `screenshot.png` in your repository or updating the image URL as needed.
+- **Customize further** if you have additional sections or badges you want to include.
