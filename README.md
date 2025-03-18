@@ -70,7 +70,7 @@ python password_generator.py
 3. This script does not store or save passwords for security reasons.
 
 
-🎩 Hangman Game 🕵️‍♂️
+## Hangman Game
 Welcome to Hangman, the classic word-guessing game where you battle against the noose! Can you figure out the hidden word before you run out of lives? Test your vocabulary and deduction skills in this fun Python-powered game!
 
 🕹 How to Play
