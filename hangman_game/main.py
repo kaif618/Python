@@ -12,13 +12,18 @@ for position in range(word_length):
     placeholder += "_"
 print("Word to guess: " + placeholder)
 
+hints = 0
 game_over = False
 correct_letters = []
+guess_letter = []
 
 while not game_over:
 
-    print(f"****************************{lives}/6 LIVES LEFT****************************")
     guess = input("Guess a letter: ").lower()
+
+    if guess in guess_letter :
+        print("Try to guess something else")
+        continue
 
 
     if guess in correct_letters:
@@ -40,15 +45,32 @@ while not game_over:
 
     if guess not in chosen_word:
         lives -= 1
+        guess_letter.append(guess)
         print(f"You guessed {guess} that's not in the word. You lose a life")
+
 
         if lives == 0:
             game_over = True
-
-            print(f"***********************IT WAS {chosen_word}YOU LOSE******************")
+            print(f"***********************IT WAS {chosen_word} YOU LOSE******************")
+            continue
 
     if "_" not in display:
         game_over = True
         print("****************************YOU WIN****************************")
 
     print(stages[lives])
+
+    print(f"****************************{lives}/6 LIVES LEFT****************************")
+
+    if (lives == 1 or lives ==2) and hints < 2:  # Check if hints are still available
+        user_input = input("Do you want a hint? Press Y for yes and N for no: ").upper()
+
+        if user_input == "Y":
+            for letter in chosen_word:
+                if letter not in correct_letters:
+                    print(f"Try Typing: {letter}")
+                    hints += 1  # Increment hint count after giving one hint
+                    break  # Stop after providing one hint
+            if hints == 2:
+               print("No more hints available.")
+
