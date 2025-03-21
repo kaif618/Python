@@ -25,6 +25,7 @@ Test your vocabulary and deduction skills in this **fun Python-powered game**!
 ✅ **Duplicate Guess Prevention** – No penalty for repeated letters!  
 ✅ **ASCII Art Hangman Stages** – Visual representation of your doom!  
 ✅ **Easy-to-Understand Interface** – Simple text-based UI for seamless play!  
+✅ **Added Hint System** – Provides You hint when you are about to loser! 
 
 ---
 
