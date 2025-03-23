@@ -12,6 +12,8 @@ Day4 : Rock paper and scissor
 Day5: Random Password Generator
 <br>
 Day6: Hangman game
+<br>
+Day7: Caesar_cipher and Silent Bidding
 
 # Rock Paper Scissors Game 🎮
 
