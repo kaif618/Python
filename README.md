@@ -21,7 +21,7 @@ Day9: BlackJack Game, Number Guessing Game
 <br>
 Day10: Higher or Lower Game
 <br>
-Day11: Coffee Machine Project
+Day11: Coffee Machine Project (Major Project)
 
 # Rock Paper Scissors Game 🎮
 
