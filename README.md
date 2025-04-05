@@ -17,7 +17,11 @@ Day7: Caesar_cipher and Silent Bidding
 <br>
 Day8: Calculator
 <br>
-Day9: BlackJack Game
+Day9: BlackJack Game, Number Guessing Game
+<br>
+Day10: Higher or Lower Game
+<br>
+Day11: Coffee Machine Project
 
 # Rock Paper Scissors Game 🎮
 
